@@ -1,0 +1,33 @@
+.listTrending h2{
+    margin-left: 15px;
+    color: var(--primary);
+}
+.listTrending ul {
+    margin:15px 0;
+    padding: 0;
+    border-top:3px solid var(--accent) ;
+    border-bottom:3px solid var(--accent) ;
+    list-style: none;
+}
+.listTrending ul li {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 15px;
+    color:var(--secondary) !important;
+}
+.listTrending ul li:hover {
+    color:var(--backgroundColor) !important;
+    background:var(--secondary);
+    transition: .5s;
+}
+
+.listTrending ul li .link{
+    text-decoration: none;
+    all: unset;
+}
+
+.listTrending ul li .link:visited{
+    text-decoration: none;
+    all: unset;
+    color: inherit; 
+}

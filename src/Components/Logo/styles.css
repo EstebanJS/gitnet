@@ -1,0 +1,14 @@
+.Logo {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+
+.Logo h1{
+    color: var(--primary);
+    transform: rotate(-10deg);
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+.Logo h1 span{
+    color: var(--secondary);
+}
