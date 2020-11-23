@@ -1,0 +1,21 @@
+.Page {
+    padding: 25px;
+    display: flexbox;
+    flex-direction: row;
+    margin-left: 300px;
+}
+
+.Page .Header-Page {
+    width: 100%;
+}
+
+.Page .Header-Page h1 {
+    color: var(--primary);
+    width: auto;
+    font-size: 2rem;
+    border-bottom: 2px solid var(--accent);
+}
+
+.Page .Content-Page {
+    height: auto;
+}

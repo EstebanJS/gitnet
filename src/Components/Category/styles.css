@@ -19,6 +19,7 @@
     color:var(--backgroundColor) !important;
     background:var(--secondary);
     transition: .5s;
+    cursor: pointer;
 }
 
 .listTrending ul li .link{

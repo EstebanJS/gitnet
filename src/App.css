@@ -1,7 +1,11 @@
 .App {
+  background: var(--lightBackGroundColor);
+  --colorText: var(--darkBackGroundColor);
+}
 
-  --backgroundColor: var(--lightBackGroundColor);
-  background: var(--backgroundColor);
+.dark-mode {
+  background: var(--darkBackGroundColor);
+  --colorText: var(--lightBackGroundColor);
 }
 
 .App-logo {
@@ -19,6 +23,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

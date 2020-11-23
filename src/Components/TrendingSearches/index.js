@@ -8,7 +8,7 @@ const TreandingSearches = () => {
     useEffect(function () {
         getTrendingTerms().then(setTrends)
     },[])
-    return <Category name ="Lo más buscado" options={trends}/>
+    return <Category name ="Top Trending" options={trends}/>
 }
 
 export default TreandingSearches

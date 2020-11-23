@@ -1,6 +1,7 @@
 .Logo {
     font-family: 'Bangers', cursive;
     text-align: center;
+    cursor: pointer;
 }
 
 .Logo h1{
